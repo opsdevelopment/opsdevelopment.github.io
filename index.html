@@ -1,0 +1,389 @@
+<!doctype html>
+<html>
+
+  <head>
+     <link rel="stylesheet" href="css/animate.css">
+     <title>O.P.S.</title>
+     <link rel="stylesheet" href="css/main.css">
+     <link rel="stylesheet" href="css/hover.css">
+<link rel="stylesheet" href="css/stylesheet.css">
+<link rel="stylesheet" href="css/stylesheet1.css">
+     <link rel="icon" type="logo" href="img/icon.png">
+     <script src="js/script.js"></script>
+     <script src="js/jquery-3.2.1.js"></script>
+     <script src="js/wow.min.js"></script>
+              <script>
+              new WOW().init();
+              </script>
+     <script src="http://ajax.aspnetcdn.com/ajax/modernizr/modernizr-2.7.2.js"></script>
+     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+     <script>
+     $(document).ready(function(){
+     $("a").on('click', function(event) {
+     if (this.hash !== "") {
+     event.preventDefault();
+     var hash = this.hash;
+     $('html, body').animate({
+     scrollTop: $(hash).offset().top
+     }, 800, function(){
+     window.location.hash = hash;
+     });
+     } // End if
+     });
+     });
+     </script>
+     <script>
+     $(window).on("scroll", function () {
+         if ($(this).scrollTop() > 1) {
+             $(".header").css("background-color", "rgba(16,16,20,1)");
+             $(".link").css("padding-top", "30px");
+             $(".link").css("padding-bottom", "30px");
+             $(".header").css("box-shadow", "0 3px 50px rgba(0, 0, 0, 0.75)");
+         }
+         else {
+             $(".header").css("background-color", "rgba(0,0,0,0)");
+             $(".link").css("padding-top", "60px");
+             $(".link").css("padding-bottom", "60px");
+             $(".header").css("box-shadow", "0 3px 50px rgba(0, 0, 0, 0)");
+         }
+     });
+     //Parallax
+function simpleParallax() {
+    //This variable is storing the distance scrolled
+    var scrolled = $(window).scrollTop() + 1;
+
+    //Every element with the class "scroll" will have parallax background
+    //Change the "0.3" for adjusting scroll speed.
+    $('.scroll').css('background-position', '0' + -(scrolled * 0.3) + 'px');
+}
+//Everytime we scroll, it will fire the function
+$(window).scroll(function (e) {
+    simpleParallax();
+});
+var scwease = require('scroll-with-ease');
+scwease(element, 1500, [0.42, 0.0, 0.58, 1.0]);
+     </script>
+  </head>
+
+  <body>
+  <img src="img/RookLogo.png" alt="rook" style="position:absolute;width:100px;height:100px;margin-left:10px;margin-top:10px;">
+  <h3 style="position:absolute;margin-left:120px;margin-top:10px;">Rook Development</h3>
+  <p style="position:absolute;margin-left:120px;margin-top:30px;">A Branch of Rook Games</p>
+  
+
+  <div id="header" class="header animated fadeInDown">
+  <div class="dropdown">
+      <a href="#home" class="dropbtn link hvr-underline-from-center animated fadeInDown">Home<img class="dropdownicon" src="img/dropdownicon.png"></a>
+   <div class="dropdown-content" id="dropdown-content">
+     <a class="hvr-shutter-out-horizontal" href="#careers">Services</a>
+     <a class="hvr-shutter-out-horizontal" href="#timelinesection">Our Process</a>
+     <a class="hvr-shutter-out-horizontal" href="#transportation">Technology</a>
+     <a class="hvr-shutter-out-horizontal" href="#prosandcons">Prices</a>
+     <a class="hvr-shutter-out-horizontal" href="#interview">Contact Us</a>
+   </div>
+   </div>
+ </div>
+<p class="top" id="home">.</p>
+<div class="scroll">
+     
+     <h3 class="landertext">Let us create the perfect web presence for your business</h3>
+     <p></p>
+     <h1 class="landertext1"><strong></strong></h1>
+</div>
+<!--
+<div class="lander">
+
+  <h2 class="landertext">
+    The Mission To Mars
+  </h2>
+
+</div>
+-->
+
+<div class="body1" id="privatizing">
+  
+  <h3 class="wow fadeIn">Rest Easy Knowing Your Website is in Good Hands!</h3>
+
+  <p class="wow fadeIn">
+    FROM CONCEPT TO LAUNCH – WE’LL MAKE THE WEB DEVELOPMENT PROCESS EASY AND FUN, AND YOU’LL LOVE THE RESULTS.  Websites are powerful business tools and our team of multi-disciplinary experts knows how to harness this power to create websites that are engaging, easy to use, speak to the target audience and guide them to the desired outcome. Simply put: we design and develop websites that lead to conversions and accomplish business goals. We’ll handle all aspects of the design and development of your website and have a tried and true approach that helps achieve the optimal outcome as quickly as possible. We’ll also work closely with you to build a development timeline so you know exactly when we’ll hit key milestones, including the website launch.
+  </p>
+
+</div>
+
+<div class="careers" id="careers">
+  <h3 class="sectiontitle wow fadeIn">Services</h3>
+
+  <div class="careerspanels">
+    <div class="timeline-line"></div>
+
+    <div class="panel1">
+
+      <h2 class="subtitle1 wow fadeIn">Website Design </h2>
+
+    </div>
+
+    <div class="panel11">
+
+      <h2 class="subtitle3 wow fadeIn">CONTENT-DRIVEN DESIGN.  Decorations don’t drive home messages. Content does. Reducing text-based content to a visual design element (the shape of the text) can result in bloated and unrealistic client expectations once real data replaces the dummy content. We allow our design decisions to be dictated by the on-page content and messaging, and often our designers use the actual content to inspire interesting elements that might not have been conceived without it </h2>
+
+    </div>
+
+    <div class="panel12">
+
+      <h2 class="subtitle2 wow fadeIn">ADAPTABLE, RESPONSIVE, AND LIGHTNING-FAST WEBSITES THAT ARE SIMPLE TO UPDATE AND CUSTOMIZED FOR EACH CLIENT’S SPECIFIC NEEDS.  Yes, our sites are attractive, intuitive, and conversion focused—but they’re also extremely well engineered. From complex e-commerce solutions to utilizing third-party tools and APIs, we work to develop a website that flawlessly operates, reinforces your brand, and delivers on user expectations—all while accounting for nearly 15 million unique, often unstable website viewing environments </h2>
+
+    </div>
+
+    <div class="panel2">
+
+      <h2 class="subtitle4 wow fadeIn"><center>Website Development </center></h2>
+
+    </div>
+
+    <div class="panel3">
+
+      <h2 class="subtitle1 wow fadeIn">Website Maintenance </h2>
+
+    </div>
+
+    <div class="panel11">
+
+      <h2 class="subtitle3 wow fadeIn">Focused on keeping your website fast and secure.  Today’s informed consumer is able to quickly find your website to assess your credibility and whether you’re worthy of their time and money. Don’t lose out on conversions with a broken, unstable, and/or vulnerable website. We are trusted to host over 500 domains, have the people power to respond to over 750 monthly maintenance tickets, and have a 1-2 hour average response time with most tickets being resolved within 24 to 48 hours. Yes, our Core Team is pretty amazing. We would love to be your partner. See what a maintenance retainer and partnership looks like below. </h2>
+
+    </div>
+
+    <div class="panel12">
+
+      <h2 class="subtitle2 wow fadeIn">COMPELLING, HIGHLY INFORMED CONTENT REACHING THE RIGHT AUDIENCE AT THE RIGHT TIME. Content is never created arbitrarily in the vague hope that it will reach the right target or create conversions. Instead, every story, every headline, every visual element is intentional and based on exacting recommendations for content strategy, messaging, UX, and storytelling recommendations. The result is refined digital content that engages, persuades, and ultimately converts your target audience and grows your business. Learn More</h2>
+
+    </div>
+
+    <div class="panel4">
+
+      <h2 class="subtitle4 wow fadeIn">SEO Partner </h2>
+
+    </div>
+
+    <!--<div class="panel5">
+
+      <h2 class="subtitle1 wow fadeIn">CAD OPERATOR </h2>
+
+    </div>
+
+    <div class="panel11">
+
+      <h2 class="subtitle3 wow fadeIn">CAD operators provide the guidelines and technical details of the product or structure being built. They draw blueprints, and drawings on the computer for their employer. </h2>
+
+    </div>
+
+    <div class="panel12">
+
+      <h2 class="subtitle2 wow fadeIn">Aeronautical engineers work with aircraft. They are involved primarily in designing aircraft and propulsion systems and in studying the aerodynamic performance of aircraft and construction materials. They work with the theory, technology, and practice of flight within the earth's atmosphere. </h2>
+
+    </div>
+
+    <div class="panel6">
+
+      <h2 class="subtitle4 wow fadeIn">AERONAUTICAL ENGINEER </h2>
+
+    </div>-->
+
+  </div>
+
+</div>
+
+<h3 id="timelinesection" class="sectiontitle wow fadeIn">Our process for creating the perfect web presence for you!</h3>
+<section id="timeline">
+
+  <article>
+    <div class="inner">
+      <span class="date wow fadeIn">
+        <span class="month">Step 1</span>
+      </span>
+      <h2 class="hvr-round-corners wow fadeInRight">
+      <p> Free Consultation about your needs, requirements, expectations and goals </p><p></h2>
+    </div>
+  </article>
+  <article>
+    <div class="inner">
+      <span class="date wow fadeIn">
+        <span class="month">Step 2</span>
+      </span>
+      <h2 class="hvr-round-corners wow fadeInLeft">
+          <p> If you choose us, we will begin the process of procuring the required information. </p></h2>
+    </div>
+  </article>
+  <article>
+    <div class="inner">
+      <span class="date wow fadeIn">
+        <span class="month">Step 3</span>
+      </span>
+      <h2 class="hvr-round-corners wow fadeInRight">
+      <p> We will start construction of the first Mock Up for your site for your review.  This will be more than just a few slides, it will be a functioning website with most of the core functionality already built.</p></h2>
+    </div>
+  </article>
+  <article>
+    <div class="inner">
+      <span class="date wow fadeIn">
+        <span class="month">Step 4</span>
+      </span>
+      <h2 class="hvr-round-corners wow fadeInLeft">
+          <p>Your first review of the product.  Tell us what you do and don't like.  If there are no major structural changes, no contract changes are required and work on your website continues. </p></h2>
+    </div>
+  </article>
+  <article>
+    <div class="inner">
+      <span class="date wow fadeIn">
+        <span class="month">Step 5</span>
+      </span>
+      <h2 class="hvr-round-corners wow fadeInRight">
+      <p><a href="http://mountaintopwritingservices.com" target="_blank">Mountaintop Writing Services:</a> Optional: If you choose to use our SEO content provider, thier contribution will be added to the site</p></h2>
+    </div>
+  </article>
+  <article>
+    <div class="inner">
+      <span class="date wow fadeIn">
+        <span class="month">Step 6</span>
+      </span>
+      <h2 class="hvr-round-corners wow fadeInLeft ">
+      <p> Any changes from step Four will be implemented and we will beging polishing your site.</p></h2>
+    </div>
+  </article>
+  <article>
+    <div class="inner">
+      <span class="date wow fadeIn">
+        <span class="month">Step 7</span>
+      </span>
+      <h2 class="hvr-round-corners wow fadeInRight">
+        <p> Final customer review and approval for both the website and any SEO content.</p></h2>
+    </div>
+  </article>
+  <article>
+    <div class="inner">
+      <span class="date wow fadeIn">
+        <span class="month">Step 8:</span>
+      </span>
+      <h2 class="hvr-round-corners wow fadeInLeft">
+      <p> Make any final changes required and open the website</p></h2>
+    </div>
+  </article>
+  <br>
+  <br>
+  <br>
+  <article>
+    <div class="inner">
+      <span class="date wow fadeIn">
+        <span class="month">Step 9:</span>
+      </span>
+      <h2 class="hvr-round-corners wow fadeInRight">
+      <p> Watch the website for the next 10 business day to ensure everything is working as expected.</p></h2>
+    </div>
+  </article>
+  <article>
+    <div class="inner">
+      <span class="date wow fadeIn">
+        <span class="month">Step 10</span>
+      </span>
+      <h2 class="hvr-round-corners wow fadeInLeft">
+      <p>Optional: Monitor and update your website to keep everything running smoothly</p></h2>
+    </div>
+  </article>
+    
+
+</section>
+<section id="transportation">
+
+  <h3 class="sectiontitle wow fadeIn">Technologies we use.</h3>
+
+  <div>
+
+    <h2 class="wow fadeIn">
+        Let us bring the latest technologies to bear for you and your business.
+    </h2>
+
+    <p class="wow fadeIn">
+        - Frontend: html(5), css(3), javascript, Angular<br>
+        - Backend: Node.js <br>
+        - Frameworks: sass/compass, bourbon/neat/bitters, grunt/gulp, <br>
+        - foundation 4/5, jquery hundreds of JS/jquery libraries/plugins <br>
+        - Database: MySQL, PostgreSQL, NoSQL, MSSQL
+    </p>
+  </div>
+
+  
+
+</section>
+
+<section id="prosandcons">
+
+  <h3 class="sectiontitle wow fadeIn">Prices and Options</h3>
+
+  <p class="wow fadeIn">
+      SURPRISE! 
+      Not everything about your web presence is expensive.
+      We are developers and we can safely say that we live, breathe, experience and understand the challenges of doing business in one of the most demanding consumer markets in the world. That small truth gave us the perfect reason to offer you a bargain.  At Rook Development we got head strong and developed some very competitive pricing packages. Our website starting price is $699. All websites we build contain the Essential Elements of good web design and development and are priced to suit the tight marketing budgets of small business owners.
+      
+      Do you conduct your small business out of state?
+      No problem, we help small businesses across the country as well as internationally to achieve the web presence goals needed for their success. You choose the price point and we’ll design and develop a plan that’s perfect for you. When circumstances prevent us from meeting face to face communication is done via email, phone calls, text messaging and Skype. Sharing files is easy and it doesn’t take any longer to build a website if you were right here with us. If you’re looking for affordable web design services along with a reliable team that’s committed to helping your small business, you need to give us a call.
+      
+      We’re here to help all small business owners make a statement on the web. Perhaps you find these prices out of your budget.  Please give us a call so we can do our best to create an appropriate website within your marketing budget.
+  <section>
+
+  <div class="pricecard">
+    <img src="img/webdev.jpg.jpg" alt="webdev" style="width:100%;">
+    <p class="pricetitle"><b> Web Presence</b></p>
+    <p class="priceprice">$1100</p>
+    <p>Great for resturaunts, private practices or anything that only needs a few pages and looks good.</p>
+  </div>
+  <div class="pricecard">
+    <img src="img/coding.jpg" alt="coding" style="width:100%">
+    <p class="pricetitle"><b> Site Maintenance</b></p>
+    <p class="priceprice">$30 per month</p>
+    <p>Once your site is up and running, we will maintain it and run regular checks.  Website data updates are priced based on circumstance.</p>
+  </div>
+  <div class="pricecard">
+    <img src="img/webdev2.jpg.jpg" alt="webdev2" style="width:100%">
+    <p class="pricetitle"><b> Complex Sites</b></p>
+    <p class="priceprice">$2500</p>
+    <p>For sites that requires authentication, 3D attributes or are used for advanced data viewing, we have you covered.</p>
+  </div>
+  <div class="pricecard">
+    <img src="img/workcoffee.jpg" alt="pic" style="width:100%">
+    <p class="pricetitle"><b> Site Builds through 3rd Parties</b></p>
+    <p class="priceprice">$300 per page</p>
+    <p>Do you have a web service such as "Square Space" that you want used.  We are familiar with all of popular systems, and can build it for you. (4 page min)</p>
+  </div>
+  
+  
+
+    
+  </section>
+
+</section>
+
+<div class="k">
+
+<h3 id="interview" class="sectiontitle wow fadeIn">Contact Us</h3>
+
+<section id="interviews">
+
+    <h2 class="wow fadeIn">By Email: support@evilrookgames.com</h2>
+    <h2 class="wow fadeIn">On The Phone: (303)-653-4186<a STYLE="text-decoration:none" href="https://www.engineering.cornell.edu/research/faculty/profile.cfm?netid=ds264" target="_blank"></a></h2>
+    
+
+    
+</section>
+
+</div>
+
+<footer class="wow fadeIn">
+
+    <h1 class="wow fadeInLeft">Gaming, Websites, and Everything Inbetween</h1>
+    <a href=" " target="_blank"><img class="wow zoomIn" src="img/RookLogo.png"></a>
+    <h2 class="wow fadeInRight">Specializing in Small Businesses</h2>
+
+</footer>
+
+</body>
+
+</html>
